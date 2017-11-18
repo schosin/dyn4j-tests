@@ -1,0 +1,33 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.dyn4j</groupId>
+  <artifactId>dyn4j-tests</artifactId>
+  <version>1.0.0</version>
+  <name>dyn4j-tests</name>
+  <url>http://www.dyn4j.org</url>
+  <description>A test suite for automated regression testing for the dyn4j project</description>
+  <inceptionYear>2010</inceptionYear>
+  <organization>
+  	<url>http://www.dyn4j.org</url>
+  	<name>dyn4j</name>
+  </organization>
+  <scm>
+  	<url>https://github.com/dyn4j/dyn4j-tests</url>
+  </scm>
+  <issueManagement>
+  	<url>https://github.com/dyn4j/dyn4j-tests/issues</url>
+  	<system>GitHub Issues</system>
+  </issueManagement>
+  <dependencies>
+  	<dependency>
+  		<groupId>org.dyn4j</groupId>
+  		<artifactId>dyn4j</artifactId>
+  		<version>3.2.4</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>junit</groupId>
+  		<artifactId>junit</artifactId>
+  		<version>4.12</version>
+  	</dependency>
+  </dependencies>
+</project>
